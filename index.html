@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>manha</title>
+  <meta name="description" content="hi, i'm manha. a dev in the way a tomato is a fruit. scroll down to the sea for project dolphin.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..800,0..100,0..1;1,9..144,300..800,0..100,0..1&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <main>
+    <!-- ===== up in the sky ===== -->
+    <div class="sky">
+
+      <section class="hero">
+        <div class="moon" aria-hidden="true"></div>
+        <div class="wrap">
+          <p class="kicker">hello from up here ✦</p>
+          <h1>Hi, I'm <span class="name">manha.</span></h1>
+          <p class="lede">
+            a dev in the way a tomato is a fruit.
+          </p>
+          <p class="aside">
+            hobbyist — i know what i need and sometimes at the right times.
+            more often than nought, though.
+          </p>
+        </div>
+        <a class="cue" href="#sea">
+          scroll down. there's something at the bottom
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="stack" aria-labelledby="stack-title">
+        <div class="wrap">
+          <h2 id="stack-title">the tech stack, honestly</h2>
+          <p class="sub">no corporate skill bars here.</p>
+
+          <div class="cols">
+            <article class="col know">
+              <h3>things i actually know</h3>
+              <ul class="chips">
+                <li>html</li>
+                <li>css</li>
+                <li>typescript</li>
+                <li>git</li>
+                <li>and such</li>
+              </ul>
+              <p class="scribble">(i google these too.)</p>
+            </article>
+
+            <article class="col google">
+              <h3>things i google every single time</h3>
+              <ul class="chips">
+                <li>flexbox centering</li>
+                <li>regex</li>
+                <li>git push --force consequences</li>
+              </ul>
+            </article>
+
+            <article class="col dunno">
+              <h3>things i don't know</h3>
+              <p class="everything">literally everything else.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="descent" aria-hidden="true">
+        <p class="sign" style="top:8%;  left:12%">down</p>
+        <p class="sign" style="top:20%; right:16%">down</p>
+        <p class="sign" style="top:32%; left:30%">down</p>
+        <p class="sign" style="top:44%; right:10%">(still down)</p>
+        <p class="sign" style="top:56%; left:14%">you're doing great btw</p>
+        <p class="sign dark" style="top:69%; right:14%">notice the sky getting lighter?</p>
+        <p class="sign dark" style="top:83%; left:18%">almost... smell that? salt.</p>
+      </section>
+    </div>
+
+    <!-- ===== down in the sea ===== -->
+    <section class="sea" id="sea" aria-labelledby="dolphin-title">
+      <div class="waves" aria-hidden="true">
+        <svg class="wave back" viewBox="0 0 2880 60" preserveAspectRatio="none"><path d="M0 30 Q 90 6 180 30 T 360 30 T 540 30 T 720 30 T 900 30 T 1080 30 T 1260 30 T 1440 30 T 1620 30 T 1800 30 T 1980 30 T 2160 30 T 2340 30 T 2520 30 T 2700 30 T 2880 30 V 60 H 0 Z"/></svg>
+        <svg class="wave front" viewBox="0 0 2880 60" preserveAspectRatio="none"><path d="M0 34 Q 90 14 180 34 T 360 34 T 540 34 T 720 34 T 900 34 T 1080 34 T 1260 34 T 1440 34 T 1620 34 T 1800 34 T 1980 34 T 2160 34 T 2340 34 T 2520 34 T 2700 34 T 2880 34 V 60 H 0 Z"/></svg>
+      </div>
+
+      <!-- sunlight coming through the surface -->
+      <div class="rays" aria-hidden="true">
+        <span style="left:8%;  --w:70px;  --delay:0s"></span>
+        <span style="left:24%; --w:40px;  --delay:-2s"></span>
+        <span style="left:41%; --w:90px;  --delay:-4s"></span>
+        <span style="left:63%; --w:50px;  --delay:-1s"></span>
+        <span style="left:80%; --w:80px;  --delay:-3s"></span>
+      </div>
+
+      <!-- things swimming around. negative delays so they're mid-swim on load -->
+      <div class="swimmers" aria-hidden="true">
+        <span class="fish"   style="top:6%;  --s:2rem;   --d:26s; --delay:-8s">🐠</span>
+        <span class="fish r" style="top:13%; --s:1.3rem; --d:19s; --delay:-3s">🐟🐟🐟</span>
+        <span class="fish"   style="top:24%; --s:1.6rem; --d:32s; --delay:-20s">🐟</span>
+        <span class="fish r" style="top:33%; --s:2.2rem; --d:40s; --delay:-12s">🐡</span>
+        <span class="fish"   style="top:44%; --s:1.1rem; --d:22s; --delay:-5s">🐟🐟🐟🐟</span>
+        <span class="fish r" style="top:55%; --s:2.6rem; --d:48s; --delay:-30s">🦑</span>
+        <span class="fish"   style="top:66%; --s:1.5rem; --d:28s; --delay:-14s">🐠</span>
+        <span class="fish r" style="top:80%; --s:2.4rem; --d:55s; --delay:-9s">🐙</span>
+      </div>
+
+      <div class="wrap surfaced">
+        <p class="label">splash! you made it. now introducing:</p>
+
+        <div class="leap" aria-hidden="true">
+          <span class="dolph-x"><span class="dolph-y">🐬</span></span>
+        </div>
+
+        <h2 id="dolphin-title">project dolphin</h2>
+
+        <article class="dolphin-card">
+          <span class="badge">biggest project rn</span>
+          <h3>a man-overboard detector, for boats.</h3>
+          <p>
+            someone falls off a boat, the boat notices, beeps loudly, and remembers exactly where it happened.
+            that's the idea. it's a wearable jacket module plus a boat module, both running on esp32s.
+          </p>
+
+          <ol class="how">
+            <li>
+              <span class="step">the jacket</span>
+              an imu keeps an eye on motion and sends telemetry over esp-now, 10 times a second
+              (20 when something looks off).
+            </li>
+            <li>
+              <span class="step">the boat</span>
+              listens, and checks how <em>strong</em> each packet's signal is. weak signal = jacket probably far away.
+            </li>
+            <li>
+              <span class="step">the verdict</span>
+              weird motion <em>and</em> a weak signal? that's a man-overboard. buzzer goes off, gps locks the spot.
+              (just bumping into something on deck doesn't count. that's the point of checking both.)
+            </li>
+            <li>
+              <span class="step">your phone</span>
+              connects straight to the boat's own wi-fi for a live dashboard. no internet needed, which is handy at sea.
+            </li>
+          </ol>
+
+          <ul class="chips hw" aria-label="hardware and tools">
+            <li>esp32-c3 supermini</li>
+            <li>esp32 devkit v1</li>
+            <li>mpu6050</li>
+            <li>neo-6m gps</li>
+            <li>esp-now</li>
+            <li>arduino</li>
+          </ul>
+
+          <p class="status">
+            <strong>status:</strong> prototype 1, in active development. very much an experiment, and
+            <em>not</em> certified safety gear.
+          </p>
+          <a class="btn" href="https://gitlab.com/astralynxen/project-dolphin" target="_blank" rel="noopener">
+            dive into project dolphin <span aria-hidden="true">→</span>
+          </a>
+          <p class="url">gitlab.com/astralynxen/project-dolphin</p>
+        </article>
+      </div>
+
+      <div class="deep" aria-hidden="true">
+        <p class="sign dark" style="top:6%;  right:12%">−40m · fish territory</p>
+        <p class="sign"      style="top:30%; left:10%">−200m · where the light gives up</p>
+        <p class="sign"      style="top:55%; right:14%">−700m · the firefly's favourite bit</p>
+        <p class="sign"      style="top:80%; left:16%">−1000m · the midnight zone</p>
+      </div>
+
+      <footer class="floor">
+        <div class="wrap">
+          <p class="bye">that's the sea floor. thanks for diving.</p>
+          <ul class="links">
+            <li><a href="https://github.com/yad2thisyazm" target="_blank" rel="noopener">github ↗</a></li>
+            <li><a href="https://gitlab.com/astralynxen/project-dolphin" target="_blank" rel="noopener">project dolphin ↗</a></li>
+            <li><a href="#top">float back up ↑</a></li>
+          </ul>
+          <p class="tiny">built by hand. googled in parts.</p>
+        </div>
+      </footer>
+
+      <div class="seabed">
+        <div class="kelp" aria-hidden="true">
+          <span style="left:4%;  --h:150px; --delay:0s"></span>
+          <span style="left:7%;  --h:210px; --delay:-1.2s"></span>
+          <span style="left:10%; --h:120px; --delay:-2.4s"></span>
+          <span style="left:84%; --h:180px; --delay:-0.6s"></span>
+          <span style="left:88%; --h:240px; --delay:-1.8s"></span>
+          <span style="left:92%; --h:140px; --delay:-3s"></span>
+        </div>
+        <span class="rock r1" aria-hidden="true"></span>
+        <span class="rock r2" aria-hidden="true"></span>
+
+
+        <div class="sand" aria-hidden="true"><span class="crab">🦀</span></div>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <canvas id="fx" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
